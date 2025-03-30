@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+
+        }
+        header { 
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+        nav {
+            background-color: rgb(72, 65, 65);
+            padding: 3px;
+            
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.127);
+        }
+        nav > a:hover {
+            text-decoration: underline;
+
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        #assuntos {
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+        }
+        .p-assuntos {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        article {
+            background-color: lightgray;
+        }
+        article > aside {
+            background-color: rgb(232, 203, 203);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+           <a href="#">Link</a> 
+           <a href="#">Link</a> 
+           <a href="#">Link</a> 
+           <a href="#">Link</a> 
+           <a href="#">Link</a> 
+        </nav>
+    </header>
+    <main>
+<section id="assuntos">
+    <p class="p-assuntos">Esporte Politica Tecnologia</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui perspiciatis nesciunt iste rerum, reiciendis, perferendis asperiores earum necessitatibus harum ratione aliquam voluptas voluptatum, enim eos ipsam? Nihil impedit incidunt asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit officia minus facilis excepturi at nulla veritatis magni blanditiis est asperiores consectetur ab rem doloribus non, provident tempora quaerat hic distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quidem assumenda soluta odit amet, ipsum voluptatibus, omnis, nemo tempora autem alias neque fugiat? Nulla consequatur, nesciunt voluptatibus accusantium enim expedita? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum quisquam quae adipisci placeat fugiat! Magni amet saepe culpa, modi quo, tenetur alias mollitia et veniam a ut expedita esse aut.</p>
+</section>
+<section id="noticias">
+    <article>
+        <aside>
+            <h2>Noticias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore quae fuga reiciendis dignissimos veritatis consectetur. Libero dolorem, amet omnis laborum facere eveniet! Adipisci, recusandae. Neque quo atque id nobis.</p>
+            <p>Artigo por Theo Soares</p>
+        </aside>
+    </article>
+</section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+</body>
+</html>
